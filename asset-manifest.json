@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-page/static/css/main.3a1ddefb.css",
+    "main.js": "/my-page/static/js/main.0bc90104.js",
+    "static/media/Ahmed-Osama-CV.pdf": "/my-page/static/media/Ahmed-Osama-CV.6e9d4cd20ba0db5c7f45.pdf",
+    "static/media/main.png": "/my-page/static/media/main.235ee8fc0d2bacacd380.png",
+    "static/media/bootstrap.webP": "/my-page/static/media/bootstrap.f1b405bde3068d42c429.webP",
+    "static/media/react.webP": "/my-page/static/media/react.a8065ae7ec14e680353e.webP",
+    "static/media/JS.webP": "/my-page/static/media/JS.327b62989575c6e0b7ae.webP",
+    "static/media/css.webP": "/my-page/static/media/css.d85a823cbc877ec9001b.webP",
+    "static/media/html.webP": "/my-page/static/media/html.bd92725e45a19303f2fa.webP",
+    "static/media/Git.webP": "/my-page/static/media/Git.0fa90bca135a5e2acb88.webP",
+    "static/media/typescript.webP": "/my-page/static/media/typescript.04b7f02dbed234f1c606.webP",
+    "index.html": "/my-page/index.html",
+    "main.3a1ddefb.css.map": "/my-page/static/css/main.3a1ddefb.css.map",
+    "main.0bc90104.js.map": "/my-page/static/js/main.0bc90104.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a1ddefb.css",
+    "static/js/main.0bc90104.js"
+  ]
+}
