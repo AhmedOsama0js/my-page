@@ -1,0 +1,16 @@
+.skills-container{
+  text-align: center;
+}
+.anan{
+  height: 70px;
+  width: 70px;
+}
+
+.skills-progress-container{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}

@@ -1,0 +1,30 @@
+.about-container {
+  width: 80%;
+  margin: 0 auto;
+  height: 97vh;
+}
+@media (max-width: 767px) {
+  .about-container {
+    width: 100%;
+  }
+}
+
+.about-container hr {
+  width: 80%;
+  margin: 30px auto;
+  border-color: #72727269;
+  border-style: dashed;
+}
+@media(max-width:767px){
+  .about-container hr {
+    margin: 20px auto;
+  }
+}
+ .about-container .btn-about{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: 30px;
+ }

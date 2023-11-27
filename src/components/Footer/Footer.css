@@ -1,0 +1,30 @@
+.footer-container{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+@media(max-width:767px){
+  .footer-container{
+    top: 25px;
+  bottom: auto;
+  left: auto;
+  right: 20px;;
+}
+}
+.footer-container ul{
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+.footer-container ul li{
+  cursor: pointer;
+}
+.footer-container ul li a{
+  font-size: var(--icon-size);
+  color: var(--font-color);
+  transition: 0.3s;
+}
+
+.footer-container ul li a:hover{
+  color: var(--red-color)
+}

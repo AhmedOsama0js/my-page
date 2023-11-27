@@ -1,0 +1,21 @@
+.done-pop-container{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 200px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--seconde-font-color) ;
+  background:rgba(0, 128, 0, 0.24);
+  height: 50px;
+}
+
+@media(max-width:767px){
+  .done-pop-container{
+    bottom: 65px;
+    right: 10px;
+    width: 200px;
+  }
+}

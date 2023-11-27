@@ -1,0 +1,234 @@
+{
+  "data": [
+  {
+    "id":1,
+    "title": "Template one",
+    "img": ["./img/template-1/1.jpg","./img/template-1/2.jpg","./img/template-1/3.jpg","./img/template-1/4.jpg","./img/template-1/5.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/Template-1/Template.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Template-1",
+    "description" :"Using HTML and CSS, I have created a page consisting of five sections: [Services, Portfolio, About, Contact]. The page features a creative design and technology that makes it responsive to all screen sizes and devices.",
+    "p": "One simple web page using HTML and CSS",
+    "target" : ["all","html&css"]
+  },
+  {
+    "id":2,
+    "title": "Template two",
+    "img": ["./img/template-2/1.jpg","./img/template-2/2.jpg","./img/template-2/3.jpg","./img/template-2/4.jpg","./img/template-2/5.jpg","./img/template-2/6.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/Template-2/Index.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Template-2",
+    "description" :"Using HTML and CSS, I have created a page consisting of six sections: [Services, Portfolio, About, pricing, and Contact]. The page features a creative design and technology that makes it responsive to all screen sizes and devices.",
+    "p":"One simple web page using HTML and CSS",
+    "target" : ["all","html&css"]
+  },
+  {
+    "id":3,
+    "title": "Template Three",
+    "img": ["./img/template-3/1.jpg","./img/template-3/2.jpg","./img/template-3/3.jpg","./img/template-3/4.jpg","./img/template-3/5.jpg","./img/template-3/6.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/template-3/Index.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/template-3",
+    "description" :"Using HTML and CSS, I have created a page consisting of six sections: The page features a creative design and technology that makes it responsive to all screen sizes and devices.",
+    "p":"One simple web page using HTML and CSS",
+    "target" : ["all","html&css"]
+  },
+  {
+    "id":4,
+    "title": "Template Four",
+    "img": ["./img/template-4/1.jpg","./img/template-4/2.jpg","./img/template-4/3.jpg","./img/template-4/4.jpg","./img/template-4/5.jpg","./img/template-4/6.jpg","./img/template-4/7.jpg","./img/template-4/8.jpg","./img/template-4/9.jpg","./img/template-4/10.jpg","./img/template-4/11.jpg","./img/template-4/12.jpg","./img/template-4/13.jpg","./img/template-4/14.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/Template-4/index.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Template-4",
+    "description" :"Using HTML and CSS, I designed a web page with 15 sections. Page orientation has been optimized to be responsive to all screen sizes. In addition, simple animations using JavaScript have been added to enhance the page's appeal.",
+    "p": "One simple web page using HTML and CSS with animation",
+    "target" : ["all","html&css"]
+  },
+  {
+    "id":5,
+    "title": "Template five",
+    "img": ["./img/bootstrap/1.jpg","./img/bootstrap/2.jpg","./img/bootstrap/3.jpg","./img/bootstrap/4.jpg","./img/bootstrap/5.jpg","./img/bootstrap/6.jpg","./img/bootstrap/7.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/Template-bootstrap-1/index.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Template-bootstrap-1",
+    "description" :"Using HTML, CSS, and bootstrap, I created a page consisting of five sections: [Services, Portfolio, About, and Contact]. The page has a creative design and technology that makes it responsive to all screen sizes and devices.",
+    "p": "One simple web page using HTML and bootstrap",
+    "target" : ["all","html&css"]
+  },
+  {
+    "id":6,
+    "title": "Dashboard One",
+    "img": ["./img/dashboard/1.jpg","./img/dashboard/2.jpg","./img/dashboard/3.jpg","./img/dashboard/4.jpg","./img/dashboard/5.jpg","./img/dashboard/6.jpg","./img/dashboard/7.jpg","./img/dashboard/8.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/Dashbord-1/index.html",
+    "git":"https://github.com/AhmedOsama0js/My-Project/tree/main/Dashbord-1",
+    "description" :"The dashboard is designed with 8 fully responsive pages on all screen sizes. This includes the Home Page, Settings Page, Profile Page, Projects Page, Courses Page, Friends Page, Files Page, and Pricing Plans page. The design was implemented using HTML and CSS to achieve distinct visual appeal.",
+    "p": "A dashboard consisting of 4 pages using css and html",
+    "target" : ["all","html&css"]
+  },
+  {
+    "id":7,
+    "title": "filter app",
+    "img": ["./img/filter-app/1.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/filter%20app/filter.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/filter%20app",
+    "description" :" application for image manipulation using HTML, CSS, and JavaScript. The image is downloaded, undergoes modification, and is then saved to the device upon completion of the editing process.",
+    "p": "An application to add a filter to images consisting of html, css and js",
+    "target" : ["all","js"]
+  },
+  {
+    "id":8,
+    "title": "Memory game",
+    "img": ["./img/card-game/1.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/Memory%20Card/memory-game.html",
+    "git":  "https://github.com/AhmedOsama0js/My-Project/tree/main/Memory%20Card",
+    "description" :"The classic card game, known as 'Identical,' involves flipping cards sequentially and counting them upside down. The objective is to identify matching cards as they are revealed.",
+    "p": "Memory card game using html, css, js",
+    "target" : ["all","js"]
+  },
+  {
+    "id":9,
+    "title": "Todo App",
+    "img": ["./img/todo-app/1.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/ToDo/ToDo.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/ToDo",
+    "description" :"The animation application is designed to add daily tasks that need to be accomplished throughout the day, with the ability to track task progress through marking or deleting them. The application relies on Local Storage for data persistence and features a responsive design for various screens, enhancing the user experience with added animation effects.",
+    "p": "An application for saving tasks based on local storage using html, css, and js",
+    "target" : ["all","js"]
+  },
+  {
+    "id":10,
+    "title": "personal page",
+    "img":["./img/personal-page/1.jpg","./img/personal-page/2.jpg","./img/personal-page/3.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/personal%20page/index.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/personal%20page",
+    "description" :"I crafted a personal webpage utilizing HTML, CSS, JS, and Bootstrap. This page showcases personal information and allows users to customize the primary page colors. The data is stored locally, leveraging storage facilities. The design incorporates animations and is responsive to various screen sizes.",
+    "p": "Personal page using html, css, js",
+    "target" : ["all","js"]
+  },
+  {
+    "id":11,
+    "title": "puzzle game",
+    "img": ["./img/puzzle/1.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/puzzle%20game/puzzle-game.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/puzzle%20game",
+    "description" :"Puzzle Game: A random selection forms the foundation of the puzzle game, where an image is fragmented into smaller pieces for users to arrange on the opposite side of the page. This interactive game was developed using JavaScript and the canvas element, Only works with computer.",
+    "p": " Puzzle  game on computer screens only using html , css, js",
+    "target" : ["all","js"]
+  },
+  {
+    "id":12,
+    "title": "Medic cear",
+    "img": ["./img/medic/1.jpg","./img/medic/2.jpg","./img/medic/3.jpg","./img/medic/4.jpg","./img/medic/5.jpg","./img/medic/6.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/Medic%20Cear/index.html",
+    "git":"https://github.com/AhmedOsama0js/My-Project/tree/main/Medic%20Cear",
+    "description" :"A webpage for a medical complex is designed to showcase information about doctors and clients, including client evaluations of the facility. The page also features a form for booking appointments. The design is responsive across all screens, achieved through the use of Bootstrap and subtle animations.",
+    "p": "web page for a medical complex to book appointments with doctors using html, css, and js",
+    "target" : ["all","js"]
+  },
+  {
+    "id":13,
+    "title": "CURD",
+    "img": ["./img/CURD/1.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/CURD/curd.html",
+    "git":"https://github.com/AhmedOsama0js/My-Project/tree/main/CURD",
+    "description" :"An inventory management program was developed to input and calculate product details, including type, number, quantity, and discounts. The collected data is then stored in a table, facilitating the display of product information and quantities within the warehouses. The program is constructed using HTML, CSS, JavaScript, and Bootstrap.",
+    "p": "accounting application for warehouse management to display products for sale and purchase",
+    "target" : ["all","js"]
+  },
+  {
+    "id":14,
+    "title": "Quran API",
+    "img": ["./img/quran-api/1.jpg","./img/quran-api/2.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/Quran%20API/index.html",
+    "git":"https://github.com/AhmedOsama0js/My-Project/tree/main/Quran%20API",
+    "description" :"A program designed for reading the entire Qur'an comes equipped with features allowing users to save verses for playback upon clicking, along with the capability to navigate forward or backward through verses. The program is responsive, ensuring optimal functionality across all screen sizes.",
+    "p": "application for listening and reading the Holy Quran",
+    "target" : ["all","js"]
+  },
+  {
+    "id":15,
+    "title": "quiz App",
+    "img": ["./img/quiz/1.jpg","./img/quiz/2.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/Quiz%20App/index.html",
+    "git":"https://github.com/AhmedOsama0js/My-Project/tree/main/Quiz%20App",
+    "description" :"application has been developed where questions are presented sequentially. Upon completing an answer, users progress to the next question. At the end of the test, there's an option to display the results, including a progress bar indicating completed and remaining questions. Additionally, the application provides a final assessment of the student's level based on the answered questions.",
+    "p":  "Question program using html, css, js",
+    "target" : ["all","js"]
+  },
+  {
+    "id":16,
+    "title": "natega ",
+    "img": ["./img/natega/1.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/natega/index.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/natega",
+    "description" :"An application designed to showcase the results of final exams upon completion. The program displays the student's evaluation in each subject, accompanied by a graph illustrating the student's performance level in the exam.",
+    "p":  "application to display students’ results using html, css, and js",
+    "target" : ["all","js"]
+  },
+  {
+    "id":17,
+    "title": "Snake Game ",
+    "img": ["./img/snake/1.jpg","./img/snake/2.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/snake%20game/index.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/snake%20game",
+    "description" :"The renowned snake game is enhanced with customizable speed levels and can be controlled on computer screens using the keyboard. Additionally, it is optimized for mobile screens, allowing users to control the snake's movement directly through the phone screen.",
+    "p":  "The snake game is compatible with all screens using html, css, and js",
+    "target" : ["all","js"]
+  },
+  {
+    "id":18,
+    "title": "Dash board",
+    "img": ["./img/js-dashboard/1.jpg","./img/js-dashboard/2.jpg","./img/js-dashboard/3.jpg","./img/js-dashboard/4.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/dashboard-2/index.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/dashboard-2",
+    "description" :"The dashboard is comprised of four pages. The initial page exhibits graphs and tables, while the second features a calendar enabling users to add appointments and essential events throughout the month. On the third page, a Todo App is presented, offering functionalities like adding, deleting, and rearranging important tasks. Finally, the fourth page showcases a table containing customer information.",
+    "p":  "The snake game is compatible with all screens using html, css, and js",
+    "target" : ["all","js"]
+  },
+  {
+    "id":19,
+    "title": "Quran Karem",
+    "img": ["./img/quran-app/1.jpg","./img/quran-app/2.jpg","./img/quran-app/3.jpg","./img/quran-app/4.jpg"],
+    "demo": "https://ahmedosama0js.github.io/My-Project/quran%20karem/astmaa.html",
+    "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/quran%20karem",
+    "description" :"The Holy Qur'an application is a robust and feature-rich platform crafted using HTML, CSS, and JS complemented by a 4-page structure. The initial page encompasses the entire Holy Qur'an, featuring the voices of 46 reciters. It includes an engaging audio player with controls for adjusting volume, advancing, or delaying the recitation. The second page provides the text of the Qur'an, allowing users to click on any verse for reading. On the third page, there is a live radio broadcast featuring recitations from various sheikhs. The fourth page offers a live stream of the Holy Qur'an channel.",
+    "p":  "Dashboard consisting of 4 pages using html, css, and js",
+    "target" : ["all","js"]
+  },
+  {
+    "id":20,
+    "title": "Notes React App",
+    "img": ["./img/note/1.jpg","./img/note/2.jpg","./img/note/3.jpg"],
+    "demo": "https://ahmedosama0js.github.io/note/",
+    "git": "https://github.com/AhmedOsama0js/note",
+    "description" :"A straightforward note-taking application that utilizes local storage for data retention. Users can save notes along with timestamps, and have the option to delete or modify them. The application was developed using the React framework.",
+    "p":  "Note taking app using react, local storage, bootstrap",
+    "target" : ["all","react"]
+  },
+  {
+    "id":21,
+    "title": "millionaire Game",
+    "img": ["./img/millionaire/1.jpg"],
+    "demo": "https://ahmedosama0js.github.io/millionaireGame/",
+    "git": "https://github.com/AhmedOsama0js/millionaireGame",
+    "description" :"The 'Who Wants to Be a Millionaire' game was crafted using React. It revolves around answering health-related questions to progress through levels and is designed to be responsive across all screens.",
+    "p":  "Who Wants to Be a Millionaire game using React and Bootstrap",
+    "target" : ["all","react"]
+  },
+  {
+    "id":22,
+    "title": "react-dashboard",
+    "img": ["./img/react-dashboard-1/1.jpg","./img/react-dashboard-1/2.jpg","./img/react-dashboard-1/3.jpg"],
+    "demo": "https://ahmedosama0js.github.io/React-Dashboard-1/",
+    "git": "https://github.com/AhmedOsama0js/React-Dashboard-1",
+    "description" :"The dashboard comprises three main pages. The primary page features a table showcasing products along with their values, accompanied by sales details, complemented by a graph for visualizing the data. The second page presents a customer table displaying customer information alongside their most recent order. The third page highlights products and their latest orders, complete with payment method details.",
+    "p":  "4-page dashboard using React and Bootstrap",
+    "target" : ["all","react"]
+  },
+  {
+    "id":23,
+    "title": "react-dashboard-2",
+    "img": ["./img/react-dashboard-2/1.jpg","./img/react-dashboard-2/2.jpg","./img/react-dashboard-2/3.jpg","./img/react-dashboard-2/4.jpg"],
+    "demo": "https://ahmedosama0js.github.io/React-Dashboard-2/",
+    "git": "https://github.com/AhmedOsama0js/React-Dashboard-2",
+    "description" :"A comprehensive dashboard encompasses four distinct pages. The initial page showcases the current date and time through three components. The first component presents daily order data, including a total count, complemented by a supporting graph. The second  provides an overarching view of all data. On the third , an informative graph is displayed. Moving to the second page, a calendar feature allows for saving, modifying, and deleting appointments, facilitating easy management. The third page features a world map with country selection capability. Lastly, the fourth page exhibits a table containing customer information with filtering options and customizable display settings. The entire control panel is designed to be responsive across all screen sizes. This project was developed using React.",
+    "p":  "4-page dashboard using React, Bootstrap and the echart library",
+    "target" : ["all","react"]
+  }
+  ]
+}
