@@ -42,7 +42,6 @@ const BtnFullscreen = () => {
 
   return (
     <div>
-      {/* Your webpage content goes here */}
       <button className="btn" id="fullscreenButton" onClick={toggleFullscreen}>
         {isFullscreen ? <BsFullscreenExit /> : <BsArrowsFullscreen />}
       </button>

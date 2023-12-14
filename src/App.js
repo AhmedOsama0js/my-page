@@ -3,7 +3,7 @@ import "./App.css";
 import Hero from "./pages/Hero/Hero";
 import Contact from "./pages/Contact/ContactMe";
 import Projects from "./pages/Projects/Projects";
-import { HashRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
@@ -12,7 +12,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="App">
         <div className="main-container">
           <Header/>
@@ -26,7 +26,7 @@ function App() {
           <Footer/>
         </div>
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 

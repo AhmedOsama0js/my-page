@@ -12,7 +12,7 @@ const CardItem = ({ project, onClick }) => {
   const handlerClick = () => {
     onClick(project)
   }
-
+  console.log(project.img[0]);
   return (
     <div className="card" key={project.id}>
       <div className="box-img">
