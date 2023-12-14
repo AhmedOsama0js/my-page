@@ -10,12 +10,17 @@
 
 ### The second page contains more details about the person and the skills he possesses
 
+<div style="display: inline-block;" align="center">
   <img src="https://github.com/AhmedOsama0js/my-page/assets/135539823/abe8d5c2-b4eb-4359-a1a3-e3c83c516b18" width="50%">
+</div>
 
 ### The third page contains a business gallery containing projects that were previously built
 
+<div style="display: inline-block;" align="center">
   <img src="https://github.com/AhmedOsama0js/my-page/assets/135539823/f1dc6db9-c349-4970-ba04-c4150875da38" width="50%">
+</div>
   
 ### The fourth page has a Contact Me section. You can send a message and it will be emailed to you
-
+<div style="display: inline-block;" align="center">
   <img src="https://github.com/AhmedOsama0js/my-page/assets/135539823/69e3c3db-5536-4dec-beff-d4dd012950d3" width="50%">
+</div>
