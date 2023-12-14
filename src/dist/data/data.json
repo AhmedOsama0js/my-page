@@ -224,8 +224,9 @@
     "id":23,
     "title": "react-dashboard-2",
     "img": ["./img/react-dashboard-2/1.jpg","./img/react-dashboard-2/2.jpg","./img/react-dashboard-2/3.jpg","./img/react-dashboard-2/4.jpg"],
-    "demo": "https://ahmedosama0js.github.io/eg-moves/",
-    "git": "https://github.com/AhmedOsama0js/eg-moves",
+
+    "demo": "https://ahmedosama0js.github.io/React-Dashboard-2/",
+    "git": "https://github.com/AhmedOsama0js/React-Dashboard-2",
     "description" :"This project, developed using React, provides a comprehensive showcase of movie details. It boasts numerous features, displaying each film with an attractive layout and showcasing movie ratings. Additionally, it offers extra functionalities such as Arabic language translation and the ability to search for specific movies, enhancing the user experience and making the project both enjoyable and practical.",
     "p":  "4-page dashboard using React, Bootstrap and the echart library",
     "target" : ["all","react"]
@@ -234,8 +235,8 @@
     "id":24,
     "title": "EG-Movies",
     "img": ["./img/eg-movies/1.jpg","/img/eg-movies/1.jpg"],
-    "demo": "https://ahmedosama0js.github.io/React-Dashboard-2/",
-    "git": "https://github.com/AhmedOsama0js/React-Dashboard-2",
+    "demo": "https://ahmedosama0js.github.io/eg-moves/",
+    "git": "https://github.com/AhmedOsama0js/eg-moves",
     "description" :"This project, developed using React, provides a comprehensive showcase of movie details. It boasts numerous features, displaying each film with an attractive layout and showcasing movie ratings. Additionally, it offers extra functionalities such as Arabic language translation and the ability to search for specific movies, enhancing the user experience and making the project both enjoyable and practical. Moreover, it is responsive, ensuring compatibility with screens of all sizes.",
     "p":  "The React project displays movie details with an appealing, responsive design for all screens. It includes movie ratings, Arabic translation, and search functionality, making it practical and enjoyable.",
     "target" : ["all","react"]
