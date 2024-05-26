@@ -1,30 +1,68 @@
-.footer-container{
+.footer-container {
   position: absolute;
   bottom: 20px;
   left: 20px;
 }
-@media(max-width:767px){
-  .footer-container{
+
+@media (max-width: 767px) {
+  .footer-container {
     top: 25px;
-  bottom: auto;
-  left: auto;
-  right: 20px;;
+    bottom: auto;
+    left: auto;
+    right: 20px;
+  }
 }
-}
-.footer-container ul{
+
+.footer-container ul {
   display: flex;
   flex-direction: row;
   gap: 7px;
 }
-.footer-container ul li{
+
+.footer-container ul li {
   cursor: pointer;
 }
-.footer-container ul li a{
+
+.footer-container ul li a {
   font-size: var(--icon-size);
   color: var(--font-color);
-  transition: 0.3s;
+  font-size: 20px;
+  transition: 0.3s; /* لإضافة تأثير الانتقال السلس */
+  animation: changeColor 7s infinite;
 }
 
-.footer-container ul li a:hover{
-  color: var(--red-color)
+.footer-container ul li:nth-child(1) a {
+  animation-delay: 0s;
+}
+.footer-container ul li:nth-child(2) a {
+  animation-delay: 1s;
+}
+.footer-container ul li:nth-child(3) a {
+  animation-delay: 2s;
+}
+.footer-container ul li:nth-child(4) a {
+  animation-delay: 3s;
+}
+.footer-container ul li:nth-child(5) a {
+  animation-delay: 4s;
+}
+.footer-container ul li:nth-child(6) a {
+  animation-delay: 5s;
+}
+.footer-container ul li:nth-child(7) a {
+  animation-delay: 6s;
+}
+
+@keyframes changeColor {
+  0%,
+  100% {
+    color: var(--font-color);
+  }
+  50% {
+    color: var(--red-color);
+  }
+}
+
+.footer-container ul li a:hover {
+  color: var(--red-color);
 }

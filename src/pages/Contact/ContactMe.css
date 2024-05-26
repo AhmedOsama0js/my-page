@@ -6,7 +6,7 @@
   justify-content: center;
   flex-direction: column;
 }
-.contact-container .contact-body{
+.contact-container .contact-body {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -27,8 +27,9 @@
   width: 400px;
   flex-direction: column;
   gap: 20px;
+  /* position: relative; */
 }
-@media(max-width:767px){
+@media (max-width: 767px) {
   .contact-container form {
     width: 350px;
   }
@@ -39,7 +40,7 @@
   align-items: center;
   justify-content: space-between;
 }
-.contact-container form .row label{
+.contact-container form .row label {
   text-shadow: var(--text-shadow);
 }
 .contact-container form .row input,
@@ -56,14 +57,14 @@
 }
 .contact-container form .row input:focus,
 .contact-container form .row textarea:focus {
-  border: 1px solid var(--red-color)
+  border: 1px solid var(--red-color);
 }
 
-@media(max-width:767px){
-.contact-container form .row input,
-.contact-container form .row textarea {
-  width: 200px;
-}
+@media (max-width: 767px) {
+  .contact-container form .row input,
+  .contact-container form .row textarea {
+    width: 200px;
+  }
 }
 
 .contact-container form .row input {
@@ -74,8 +75,39 @@
   resize: none;
   padding: 10px;
 }
-.contact-container form  .submitBtn{
+.contact-container form .submitBtn {
   background-color: transparent;
   margin: 0 auto;
   border: none;
+}
+.whatsapp-icon {
+  position: absolute;
+  bottom: 90px;
+  left: 40px;
+  font-size: 35px;
+  color: var(--red-color);
+  animation: float 2s ease-in-out infinite; /* إضافة الحركة */
+  /* box-shadow: 0 0 10px 0 var(--red-color); */
+}
+
+.whatsapp-icon svg{
+filter: drop-shadow(10px 30px 5px var(--red-color));
+animation: shadow 2s ease-in-out infinite; 
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0); 
+  }
+  50% {
+    transform: translateY(-10px); 
+  }
+}
+@keyframes shadow {
+  0%, 100% {
+   filter: drop-shadow(0px 0px 0px var(--red-color));
+  }
+  50% {
+   filter: drop-shadow(0px 0px 10px var(--red-color));
+  }
 }

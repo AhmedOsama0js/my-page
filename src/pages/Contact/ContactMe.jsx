@@ -5,6 +5,7 @@ import { IoMail } from "react-icons/io5";
 import MainBtn from "../../components/mainBtn/MainBtn";
 import { IoSend } from "react-icons/io5";
 import DonePop from "../../model/DonePop";
+import {FaWhatsapp,} from "react-icons/fa";
 
 
 
@@ -75,6 +76,13 @@ useEffect(() => {
             />
           </button>
         </form>
+        <a className="whatsapp-icon"
+          href="https://api.whatsapp.com/send?phone=201013265916"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaWhatsapp />
+        </a>
       </div>
     </div>
   );

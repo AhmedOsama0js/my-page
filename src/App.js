@@ -8,6 +8,8 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
 import Sidebar from "./components/sidebar/Sidebar";
+// import {app,db} from "./dist/data/firebase"
+
 
 
 function App() {
@@ -15,15 +17,15 @@ function App() {
     <HashRouter>
       <div className="App">
         <div className="main-container">
-          <Header/>
-          <Sidebar/>
+          <Header />
+          <Sidebar />
           <Routes>
             <Route path="/" element={<Hero />} />
-            <Route path="/about" element={<About/>} />
+            <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="contact" element={<Contact />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
-          <Footer/>
+          <Footer />
         </div>
       </div>
     </HashRouter>
