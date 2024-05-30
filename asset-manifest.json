@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-page/static/css/main.bd4818b2.css",
-    "main.js": "/my-page/static/js/main.2248854a.js",
+    "main.css": "/my-page/static/css/main.3997d725.css",
+    "main.js": "/my-page/static/js/main.b04f640a.js",
     "static/media/Ahmed-Osama-CV.pdf": "/my-page/static/media/Ahmed-Osama-CV.6e9d4cd20ba0db5c7f45.pdf",
     "static/media/main.png": "/my-page/static/media/main.235ee8fc0d2bacacd380.png",
     "static/media/bootstrap.webP": "/my-page/static/media/bootstrap.f1b405bde3068d42c429.webP",
@@ -12,11 +12,11 @@
     "static/media/Git.webP": "/my-page/static/media/Git.0fa90bca135a5e2acb88.webP",
     "static/media/typescript.webP": "/my-page/static/media/typescript.04b7f02dbed234f1c606.webP",
     "index.html": "/my-page/index.html",
-    "main.bd4818b2.css.map": "/my-page/static/css/main.bd4818b2.css.map",
-    "main.2248854a.js.map": "/my-page/static/js/main.2248854a.js.map"
+    "main.3997d725.css.map": "/my-page/static/css/main.3997d725.css.map",
+    "main.b04f640a.js.map": "/my-page/static/js/main.b04f640a.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd4818b2.css",
-    "static/js/main.2248854a.js"
+    "static/css/main.3997d725.css",
+    "static/js/main.b04f640a.js"
   ]
 }
