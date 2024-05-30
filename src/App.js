@@ -8,9 +8,8 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
 import Sidebar from "./components/sidebar/Sidebar";
+// import useFireStore from "./hooks/useFireStore";
 // import {app,db} from "./dist/data/firebase"
-
-
 
 function App() {
   return (

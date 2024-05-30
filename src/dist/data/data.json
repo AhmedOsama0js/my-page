@@ -234,7 +234,7 @@
   {
     "id":24,
     "title": "EG-Movies",
-    "img": ["./img/eg-movies/1.jpg","./img/eg-movies/1.jpg"],
+    "img": ["./img/eg-movies/1.jpg","./img/eg-movies/2.jpg"],
     "demo": "https://ahmedosama0js.github.io/eg-moves/",
     "git": "https://github.com/AhmedOsama0js/eg-moves",
     "description" :"This project, developed using React, provides a comprehensive showcase of movie details. It boasts numerous features, displaying each film with an attractive layout and showcasing movie ratings. Additionally, it offers extra functionalities such as Arabic language translation and the ability to search for specific movies, enhancing the user experience and making the project both enjoyable and practical. Moreover, it is responsive, ensuring compatibility with screens of all sizes.",
