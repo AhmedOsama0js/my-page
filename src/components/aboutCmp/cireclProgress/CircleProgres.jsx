@@ -15,7 +15,15 @@ const CircleProgres = ({ Img, V, color }) => {
           strokeLinecap: "butt",
         })}
       >
-        <img style={{ width: 35, marginTop: -5 }} src={Img} alt="CSS" />
+        <img
+          style={{
+            width: 35,
+            marginTop: -5,
+            filter: "drop-shadow(1px 1px 5px var(--font-color))",
+          }}
+          src={Img}
+          alt="CSS"
+        />
         <div style={{ fontSize: 12 }}>
           <strong className="textInChart">{V}</strong>
         </div>
