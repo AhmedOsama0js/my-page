@@ -1,7 +1,7 @@
 .about-container {
   width: 80%;
   margin: 0 auto;
-  height: 97vh;
+  height: 97dvh;
   overflow-y: auto;
 }
 @media (max-width: 767px) {
