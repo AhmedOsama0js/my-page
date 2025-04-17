@@ -92,3 +92,11 @@ a {
   cursor: pointer;
   box-shadow: var(--box-shadow);
 }
+
+@media (max-width: 767px) {
+  .btn {
+    height: 25px;
+    width: 25px;
+    font-size: 14px;
+  }
+}

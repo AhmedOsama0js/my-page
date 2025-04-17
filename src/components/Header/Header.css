@@ -18,3 +18,11 @@
   z-index: 99999;
   box-shadow: var(--box-shadow);
 }
+
+@media (max-width: 767px) {
+  .header-container {
+    top: 15px;
+    gap: 8px;
+    padding: 4px 8px;
+  }
+}

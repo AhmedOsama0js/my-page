@@ -63,10 +63,19 @@
   color: var(--red-color);
   text-shadow: var(--text-shadow);
 }
-@media (max-width: 977px) {
+/* @media (max-width: 977px) {
+  .info-hero p {
+    width: 90%;
+  }
+} */
+@media (max-width: 779px) {
   .info-hero p {
     width: 90%;
     font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    max-height: 30vh;
+    overflow: auto;
   }
 }
 
