@@ -1,12 +1,13 @@
-import MyInfo from "../../components/aboutCmp/MyInfo/MyInfo"
-import Skills from "../../components/aboutCmp/Skills/Skills"
-import MainBtn from "../../components/mainBtn/MainBtn"
+import MyInfo from "../../components/aboutCmp/MyInfo/MyInfo";
+import Skills from "../../components/aboutCmp/Skills/Skills";
+import MainBtn from "../../components/mainBtn/MainBtn";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
-import "./About.css"
-
+import "./About.css";
+import { useTranslation } from "../../contexts/LanguageContext";
 
 const About = () => {
+  const t = useTranslation();
   return (
     <div className="about-container">
       <MyInfo />
@@ -15,11 +16,11 @@ const About = () => {
       <hr />
       <div className="btn-about">
         <Link to="/projects">
-          <MainBtn Icon={<FaArrowRight />} name=" Go to Projects" />
+          <MainBtn Icon={<FaArrowRight />} name={t("GoToProjects")} />
         </Link>
       </div>
     </div>
   );
-}
+};
 
-export default About
+export default About;

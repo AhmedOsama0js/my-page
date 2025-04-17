@@ -1,38 +1,44 @@
-.sidebar-container{
+.sidebar-container {
   position: absolute;
   top: 50%;
   right: 15px;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   z-index: 1000;
 }
 
-@media(max-width:767px){
-  .sidebar-container{
+@media (max-width: 767px) {
+  .sidebar-container {
     position: absolute;
     top: 95%;
     right: auto;
     left: 50%;
+  }
 }
-}
-
 
 .sidebar-container ul {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  /* border: 1px solid #80808080; */
-  border-radius: 25px;
+  border-radius: 12px;
   padding: 2px;
   box-shadow: var(--box-shadow);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: var(--blur-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  z-index: 99999;
 }
 
-@media(max-width:767px){
-.sidebar-container ul {
-  flex-direction: row;
-}
+@media (max-width: 767px) {
+  .sidebar-container ul {
+    flex-direction: row;
+  }
 }
 .linkPage,
-.sidebar-container ul li .active{
+.sidebar-container ul li .active {
   height: 40px;
   width: 40px;
   display: flex;
@@ -45,13 +51,13 @@
   font-variant-alternates: normal;
 }
 
-.linkPage{
+.linkPage {
   color: var(--font-color);
 }
 .linkPage:hover,
-.active{
+.active {
   color: var(--font-color);
-  box-shadow: 0  0 2px 0 #646363;
+  box-shadow: 0 0 2px 0 #3f3e3e;
   transition: 0.5s;
   background-color: var(--background-icon);
 }

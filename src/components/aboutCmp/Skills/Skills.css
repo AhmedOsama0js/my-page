@@ -1,12 +1,43 @@
-.skills-container{
+.skills-container {
   text-align: center;
-}
-.anan{
-  height: 70px;
-  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.skills-progress-container{
+.skills-container h3 {
+  color: var(--red-color);
+}
+
+.anan {
+  height: 85px;
+  width: 85px;
+}
+.textInChart {
+  font-size: 10px;
+}
+@media (max-width: 997px) {
+  .anan {
+    height: 75px;
+    width: 75px;
+  }
+  .textInChart {
+    font-size: 8px;
+  }
+}
+@media (max-width: 768px) {
+  .anan {
+    height: 70px;
+    width: 70px;
+  }
+  .textInChart {
+    font-size: 8px;
+  }
+}
+
+.skills-progress-container {
   margin-top: 20px;
   display: flex;
   align-items: center;

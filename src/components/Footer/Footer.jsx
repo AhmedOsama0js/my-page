@@ -1,4 +1,4 @@
-import "./Footer.css"
+import "./Footer.css";
 import { AiFillLinkedin } from "react-icons/ai";
 import {
   FaGithub,
@@ -6,6 +6,7 @@ import {
   FaInstagramSquare,
   FaCodepen,
   FaWhatsapp,
+  FaYoutube,
 } from "react-icons/fa";
 import { SiCodewars } from "react-icons/si";
 
@@ -36,6 +37,14 @@ const Footer = () => {
         </li>
         <li>
           <a
+            href="https://youtube.com/@ahmedosama9459?si=-5o3ijvgdAEtJ0Fj"
+            target="_blanck"
+          >
+            <FaYoutube />
+          </a>
+        </li>
+        <li>
+          <a
             href="https://www.instagram.com/ahmed_osama_611/?fbclid"
             target="_blanck"
           >
@@ -56,13 +65,17 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://api.whatsapp.com/send?phone=201013265916" target="_blank" rel="noreferrer">
-            <FaWhatsapp/>
-            </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=201013265916"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaWhatsapp />
+          </a>
         </li>
       </ul>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;

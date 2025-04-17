@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 * {
   padding: 0;
@@ -7,13 +8,14 @@
 }
 
 :root {
-  --main: linear-gradient(60deg, #111111,#000000);
+  --main: linear-gradient(60deg, #111111, #000000);
   --seconder: #0e0d0d;
   --font-color: #dddddd;
   --seconde-font-color: #d3d3d3;
   --text-shadow: 0px 0px 1px #8f8f8f;
   --box-shadow-img: drop-shadow(5px 5px 5px #8f8f8f) grayscale(99%);
   --background-icon: #e0e0e091;
+  --blur-bg: #d4d4d41f;
   --card-background: linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0.05),
@@ -24,11 +26,12 @@
   --red-color: #8f1a1a;
 }
 
-.light {
-    --main: linear-gradient(60deg, #ffffff,#ebebeb);
+body.light {
+  --main: linear-gradient(60deg, #ffffff, #ebebeb);
   --seconder: #e0e0e0;
   --font-color: #121212;
   --seconde-font-color: #2e2d2d;
+  --blur-bg: #0202021e;
   --text-shadow: 0px 0px 1px #242424;
   --background-icon: rgba(148, 148, 148, 0.569);
   --box-shadow-img: drop-shadow(5px 5px 5px #000000) grayscale(99%);
@@ -38,11 +41,20 @@
     rgba(0, 0, 0, 0.075)
   );
 }
+body.ar {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.ar .dir {
+  direction: rtl !important;
+}
 
 ::-webkit-scrollbar {
   width: 2px;
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   width: 2px;
   height: 100px;
   background-color: var(--font-color);
@@ -72,8 +84,8 @@ a {
   background: var(--background-icon);
   border-radius: 50%;
   border: none;
-  height: 35px;
-  width: 35px;
+  height: 30px;
+  width: 30px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -50,11 +50,11 @@
 
 .info-hero p {
   text-align: center;
-  color:  var(--seconde-font-color);
+  color: var(--seconde-font-color);
   width: 80%;
   line-height: 1.6;
   margin-bottom: 15px;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .info-hero p::first-letter {
@@ -66,10 +66,9 @@
 @media (max-width: 977px) {
   .info-hero p {
     width: 90%;
-    font-size: 16px;
+    font-size: 14px;
   }
 }
-
 
 .img-hero {
   display: flex;

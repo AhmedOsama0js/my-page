@@ -4,20 +4,20 @@ import {
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-const CircleProgres = ({ Img, V, color}) => {
+const CircleProgres = ({ Img, V, color }) => {
   return (
     <div className="anan" label="Arbitrary content">
       <CircularProgressbarWithChildren
-        value={V}
+        value="100"
         styles={buildStyles({
           pathColor: `${color}`,
           textColor: `#727272`,
           strokeLinecap: "butt",
         })}
       >
-        <img style={{ width: 40, marginTop: -5 }} src={Img} alt="CSS" />
-        <div style={{ fontSize: 12, marginTop: -5 }}>
-          <strong>{V}%</strong>
+        <img style={{ width: 35, marginTop: -5 }} src={Img} alt="CSS" />
+        <div style={{ fontSize: 12 }}>
+          <strong className="textInChart">{V}</strong>
         </div>
       </CircularProgressbarWithChildren>
     </div>

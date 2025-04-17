@@ -2,6 +2,7 @@
   width: 80%;
   margin: 0 auto;
   height: 97vh;
+  overflow-y: auto;
 }
 @media (max-width: 767px) {
   .about-container {
@@ -15,16 +16,16 @@
   border-color: #72727269;
   border-style: dashed;
 }
-@media(max-width:767px){
+@media (max-width: 767px) {
   .about-container hr {
     margin: 20px auto;
   }
 }
- .about-container .btn-about{
+.about-container .btn-about {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: -10px;
-  margin-bottom: 30px;
- }
+  margin-bottom: 100px;
+}
