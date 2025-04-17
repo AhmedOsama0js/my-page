@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-page/static/css/main.aba2a78b.css",
+    "main.css": "/my-page/static/css/main.841d2ccc.css",
     "main.js": "/my-page/static/js/main.3fef0d75.js",
     "static/js/726.5e21d3d9.chunk.js": "/my-page/static/js/726.5e21d3d9.chunk.js",
     "static/js/790.81ec3d96.chunk.js": "/my-page/static/js/790.81ec3d96.chunk.js",
@@ -20,17 +20,17 @@
     "static/media/mangoDB.png": "/my-page/static/media/mangoDB.2178943141ba7e7fae4e.png",
     "static/media/bootstrap.webP": "/my-page/static/media/bootstrap.f1b405bde3068d42c429.webP",
     "static/media/react.webP": "/my-page/static/media/react.a8065ae7ec14e680353e.webP",
+    "index.html": "/my-page/index.html",
     "static/media/JS.webP": "/my-page/static/media/JS.327b62989575c6e0b7ae.webP",
     "static/media/css.webP": "/my-page/static/media/css.d85a823cbc877ec9001b.webP",
-    "index.html": "/my-page/index.html",
     "static/media/html.webP": "/my-page/static/media/html.bd92725e45a19303f2fa.webP",
     "static/media/Git.webP": "/my-page/static/media/Git.0fa90bca135a5e2acb88.webP",
     "static/media/typescript.webP": "/my-page/static/media/typescript.04b7f02dbed234f1c606.webP",
-    "main.aba2a78b.css.map": "/my-page/static/css/main.aba2a78b.css.map",
+    "main.841d2ccc.css.map": "/my-page/static/css/main.841d2ccc.css.map",
     "main.3fef0d75.js.map": "/my-page/static/js/main.3fef0d75.js.map"
   },
   "entrypoints": [
-    "static/css/main.aba2a78b.css",
+    "static/css/main.841d2ccc.css",
     "static/js/main.3fef0d75.js"
   ]
 }
