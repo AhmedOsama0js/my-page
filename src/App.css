@@ -8,15 +8,20 @@
 }
 .main-container {
   position: relative;
-  /* padding: 10px; */
   height: 96dvh;
   width: 96%;
   background: var(--main);
   display: flex;
   align-items: center;
-  /* justify-content: center; */
   gap: 20px;
   border-radius: 15px;
   box-shadow: var(--box-shadow);
   overflow: hidden;
+}
+
+@media (max-width: 779px) {
+  .main-container {
+    height: 99dvh;
+    width: 98%;
+  }
 }

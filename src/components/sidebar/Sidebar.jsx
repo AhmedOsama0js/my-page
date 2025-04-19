@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { AiOutlineHome, AiOutlineProject } from "react-icons/ai";
 import { BiMessage } from "react-icons/bi";
 import { IoPerson } from "react-icons/io5";
-import "./Sidebar.css"
+import "./Sidebar.css";
 
 const Sidebar = () => {
   const location = useLocation();
@@ -11,9 +11,11 @@ const Sidebar = () => {
       <ul>
         <li>
           <Link
-            to="/"
+            to="/my-page"
             title="Hero"
-            className={location.pathname === "/" ? "active " : "linkPage"}
+            className={
+              location.pathname === "/my-page" ? "active " : "linkPage"
+            }
           >
             <AiOutlineHome />
           </Link>
@@ -52,7 +54,6 @@ const Sidebar = () => {
       </ul>
     </div>
   );
-}
+};
 
-export default Sidebar
-
+export default Sidebar;

@@ -13,7 +13,9 @@ const ThemeToggler = () => {
   );
 
   useEffect(() => {
-    document.body.classList.value = theme;
+    theme === "light"
+      ? document.body.classList.add("light")
+      : document.body.classList.remove("light");
   }, [theme]);
 
   return (
@@ -32,8 +34,8 @@ const ThemeToggler = () => {
       >
         {theme === THEMES.DARK ? (
           <MdLightMode style={{ color: "orange" }} />
-          ) : (
-            <IoIosMoon/>
+        ) : (
+          <IoIosMoon />
         )}
       </button>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../dist/img/main.png";
+import img from "../../dist/img/main1.png";
 import "./Hero.css";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa6";
