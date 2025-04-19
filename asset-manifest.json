@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/my-page/static/css/main.841d2ccc.css",
-    "main.js": "/my-page/static/js/main.94fed790.js",
-    "static/js/726.5e21d3d9.chunk.js": "/my-page/static/js/726.5e21d3d9.chunk.js",
-    "static/js/790.81ec3d96.chunk.js": "/my-page/static/js/790.81ec3d96.chunk.js",
+    "main.css": "/my-page/static/css/main.217351e1.css",
+    "main.js": "/my-page/static/js/main.9cf0c817.js",
+    "static/js/726.e11a689f.chunk.js": "/my-page/static/js/726.e11a689f.chunk.js",
+    "static/js/790.bae7193d.chunk.js": "/my-page/static/js/790.bae7193d.chunk.js",
     "static/media/Ahmed_Osama(FullStack).pdf": "/my-page/static/media/Ahmed_Osama(FullStack).85ca35354c43bd92124a.pdf",
-    "static/media/main.png": "/my-page/static/media/main.235ee8fc0d2bacacd380.png",
+    "static/media/main1.png": "/my-page/static/media/main1.ddd5eba53bdb5a51b304.png",
     "static/media/postgreSQL.png": "/my-page/static/media/postgreSQL.5a2db9aa1c190fe21d71.png",
     "static/media/ContextAPI.png": "/my-page/static/media/ContextAPI.787787e15e74b7c77e3a.png",
     "static/media/ReduxToolkit.png": "/my-page/static/media/ReduxToolkit.a96181ab62cd8c5d0174.png",
@@ -26,11 +26,11 @@
     "static/media/html.webP": "/my-page/static/media/html.bd92725e45a19303f2fa.webP",
     "static/media/Git.webP": "/my-page/static/media/Git.0fa90bca135a5e2acb88.webP",
     "static/media/typescript.webP": "/my-page/static/media/typescript.04b7f02dbed234f1c606.webP",
-    "main.841d2ccc.css.map": "/my-page/static/css/main.841d2ccc.css.map",
-    "main.94fed790.js.map": "/my-page/static/js/main.94fed790.js.map"
+    "main.217351e1.css.map": "/my-page/static/css/main.217351e1.css.map",
+    "main.9cf0c817.js.map": "/my-page/static/js/main.9cf0c817.js.map"
   },
   "entrypoints": [
-    "static/css/main.841d2ccc.css",
-    "static/js/main.94fed790.js"
+    "static/css/main.217351e1.css",
+    "static/js/main.9cf0c817.js"
   ]
 }
