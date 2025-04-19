@@ -11,11 +11,9 @@ const Sidebar = () => {
       <ul>
         <li>
           <Link
-            to="/my-page"
+            to="/"
             title="Hero"
-            className={
-              location.pathname === "/my-page" ? "active " : "linkPage"
-            }
+            className={location.pathname === "/" ? "active " : "linkPage"}
           >
             <AiOutlineHome />
           </Link>
