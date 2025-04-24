@@ -1,7 +1,6 @@
 .card-products .card {
   padding: 1px;
-  height: 260px;
-  width: 230px;
+  width: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,7 +12,7 @@
   transition: 0.3s;
   box-shadow: var(--box-shadow);
 }
-.card-products .card:hover{
+.card-products .card:hover {
   border: 1px solid var(--font-color);
 }
 
@@ -21,7 +20,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 230px;
+  width: 100%;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -30,7 +29,7 @@
   transition: 0.3s;
   border-radius: 8px;
 }
-.card-products .card .box-img img:hover{
+.card-products .card .box-img img:hover {
   transform: scale(1.1);
 }
 .card-products .card .Info-card {
@@ -40,8 +39,6 @@
   justify-content: space-between;
   flex-direction: column;
   gap: 7px;
-  width: 230px;
-  height: 130px;
 }
 
 .card-products .card .Info-card > p {
@@ -53,28 +50,23 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
-.card-products .card .Info-card .link  .more{
+.card-products .card .Info-card .link .more {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:3px;
-
+  gap: 3px;
 }
-.card-products .card .Info-card .link  a{
+.card-products .card .Info-card .link a {
   font-size: 20px;
 }
-.card-products .card .Info-card .link  a,
-.card-products .card .Info-card .link  .more{
+.card-products .card .Info-card .link a,
+.card-products .card .Info-card .link .more {
   color: var(--font-color);
   margin-right: 10px;
   cursor: pointer;
-
 }
-.card-products .card .Info-card .link  a:hover,
-.card-products .card .Info-card .link  .more:hover
-{
+.card-products .card .Info-card .link a:hover,
+.card-products .card .Info-card .link .more:hover {
   color: #1237af;
 }
-

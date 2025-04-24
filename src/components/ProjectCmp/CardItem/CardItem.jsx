@@ -1,17 +1,21 @@
-import "./CardItme.css"
+import { useState } from "react";
+import "./CardItme.css";
 import { FaGithub } from "react-icons/fa";
 import { FiLink } from "react-icons/fi";
 import { MdReadMore } from "react-icons/md";
+import { MainModal } from "react-modals-kit";
+import Pop from "../../../model/Pop";
 
-const CardItem = ({ project, onClick }) => {
+const CardItem = ({ project }) => {
+  const [openModel, setOpenModel] = useState();
   const description =
     project.p && project.p.split(" ").length > 10
       ? `${project.p.split(" ").slice(0, 9).join(" ")} ...`
       : project.p || "No description available";
-  
+
   const handlerClick = () => {
-    onClick(project)
-  }
+    setOpenModel(true);
+  };
 
   return (
     <div className="card" key={project.id}>
@@ -27,22 +31,38 @@ const CardItem = ({ project, onClick }) => {
         <p>{description}</p>
         <div className="link">
           <div className="out-link">
-            <a title="Demo" href={project.demo} target="_blank" rel="noopener noreferrer">
+            <a
+              title="Demo"
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FiLink />
             </a>
-            <a title="Git" href={project.git} target="_blank" rel="noopener noreferrer">
+            <a
+              title="Git"
+              href={project.git}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FaGithub />
             </a>
           </div>
           <div className="more" onClick={handlerClick}>
             more
-            <MdReadMore  style={{fontSize:"25px"}}/>
+            <MdReadMore style={{ fontSize: "25px" }} />
           </div>
         </div>
       </div>
+      {openModel && (
+        <MainModal
+          setModel={setOpenModel}
+          content={<Pop Data={project} />}
+          bodyColor="var(--seconder)"
+        />
+      )}
     </div>
   );
 };
-
 
 export default CardItem;

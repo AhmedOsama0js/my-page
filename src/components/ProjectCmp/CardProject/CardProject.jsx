@@ -3,10 +3,7 @@ import "./CardProjects.css";
 import data from "../../../dist/data/data.json";
 import CardItem from "../CardItem/CardItem";
 
-
-
-
-const CardProject = ({ filter, HandlerShowPop }) => {
+const CardProject = ({ filter }) => {
   const reversedData = useMemo(() => data.data.slice().reverse(), []);
   const [projects, setProjects] = useState(reversedData);
 
@@ -25,14 +22,10 @@ const CardProject = ({ filter, HandlerShowPop }) => {
     filterProjects();
   }, [filter, filterProjects]);
 
-  const handlerClick = (data) => {
-    HandlerShowPop(true , data)
-  };
-
   return (
     <div className="card-products">
       {projects.map((project) => (
-        <CardItem key={project.id} project={project} onClick={handlerClick} />
+        <CardItem key={project.id} project={project} />
       ))}
     </div>
   );

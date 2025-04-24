@@ -1,28 +1,15 @@
 import React, { useState } from "react";
 import CardProject from "../../components/ProjectCmp/CardProject/CardProject";
 import "./Projects.css";
-import Pop from "../../model/Pop.jsx";
 
 const Projects = () => {
-
   const [filter, setFilter] = useState("all");
   const handleButtonClick = (selectedFilter) => {
     setFilter(selectedFilter);
   };
-  const [show, setShow] = useState(false);
-  const [data, setData] = useState({});
 
-const handleShowPopTrue = (boolean, data) => {
-  setShow(boolean);
-  setData(data);
-};
-
-const handleShowPopFalse = (data) => {
-  setShow(data);
-};
   return (
     <>
-      <Pop Data={data} showPop={show} handlerShowPop={handleShowPopFalse} />
       <div className="projects-container">
         <h2>My Projects</h2>
         <div className="project-info">
@@ -53,7 +40,7 @@ const handleShowPopFalse = (data) => {
             </button>
           </div>
           <div className="projects">
-            <CardProject filter={filter} HandlerShowPop={handleShowPopTrue} />
+            <CardProject filter={filter} />
           </div>
         </div>
       </div>

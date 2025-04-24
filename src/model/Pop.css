@@ -1,5 +1,4 @@
 .container-pop {
-  position: absolute;
   height: 100%;
   width: 100%;
   display: flex;
@@ -7,12 +6,8 @@
   justify-content: center;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  background-color: rgba(65, 65, 65, 0.466);
-  z-index: 100000;
 }
 .container-pop .body-pop {
-  width: 80%;
-  height: 85dvh;
   background-color: var(--seconder);
   border-radius: 10px;
   display: flex;
@@ -21,12 +16,6 @@
   flex-direction: column;
   color: var(--font-color);
   position: relative;
-}
-
-@media (max-width: 767px) {
-  .container-pop .body-pop {
-    width: 90%;
-  }
 }
 
 .container-pop .body-pop .btn-pop {
@@ -71,8 +60,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* font-size: 25px; */
   gap: 30px;
+  margin-bottom: 15px;
 }
 
 .container-pop .body-pop .header-pop .pop-link a {
