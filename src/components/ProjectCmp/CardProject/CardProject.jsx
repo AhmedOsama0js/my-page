@@ -1,26 +1,36 @@
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import "./CardProjects.css";
-import data from "../../../dist/data/data.json";
+import data from "../../../dist/data/data.en.json";
 import CardItem from "../CardItem/CardItem";
+import { useLanguage } from "../../../contexts/LanguageContext";
 
 const CardProject = ({ filter }) => {
+  const { lang } = useLanguage(); // علشان نعرف اللغة الحالية
   const reversedData = useMemo(() => data.data.slice().reverse(), []);
-  const [projects, setProjects] = useState(reversedData);
+  const [projects, setProjects] = useState([]);
+  const [allData, setAllData] = useState([]);
 
-  const filterProjects = useCallback(() => {
-    if (filter === "all") {
-      setProjects(reversedData);
-    } else {
-      const filteredProjects = reversedData.filter(
-        (project) => project.target && project.target[1] === filter
-      );
-      setProjects(filteredProjects);
+  const loadData = useCallback(async () => {
+    try {
+      const res = await import(`../../../dist/data/data.${lang}.json`);
+      const reversed = res.default.data.slice().reverse();
+      setAllData(reversed);
+      if (filter === "all") {
+        setProjects(reversed);
+      } else {
+        const filtered = reversed.filter(
+          (project) => project.target && project.target[1] === filter
+        );
+        setProjects(filtered);
+      }
+    } catch (err) {
+      console.error("Error loading data file:", err);
     }
-  }, [filter, reversedData]);
+  }, [lang, filter]);
 
   useEffect(() => {
-    filterProjects();
-  }, [filter, filterProjects]);
+    loadData();
+  }, [lang, filter, loadData]);
 
   return (
     <div className="card-products">

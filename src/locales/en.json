@@ -26,5 +26,9 @@
   "phoneRequired": "phone is Required",
   "messageRequired": "message is Required",
   "invalidEmail": "invalid Email",
-  "invalidPhone": "invalid Phone"
+  "invalidPhone": "invalid Phone",
+  "more": "More",
+  "MyProject": "My Projects",
+  "demo": "Demo",
+  "code": "Code"
 }

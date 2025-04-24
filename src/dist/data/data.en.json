@@ -3,22 +3,7 @@
     {
       "id": 4,
       "title": "Template Four",
-      "img": [
-        "./img/template-4/1.jpg",
-        "./img/template-4/2.jpg",
-        "./img/template-4/3.jpg",
-        "./img/template-4/4.jpg",
-        "./img/template-4/5.jpg",
-        "./img/template-4/6.jpg",
-        "./img/template-4/7.jpg",
-        "./img/template-4/8.jpg",
-        "./img/template-4/9.jpg",
-        "./img/template-4/10.jpg",
-        "./img/template-4/11.jpg",
-        "./img/template-4/12.jpg",
-        "./img/template-4/13.jpg",
-        "./img/template-4/14.jpg"
-      ],
+      "img": ["./img/template-4/1.jpg"],
       "demo": "https://ahmedosama0js.github.io/My-Project/Template-4/index.html",
       "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Template-4",
       "description": "Using HTML and CSS, I designed a web page with 15 sections. Page orientation has been optimized to be responsive to all screen sizes. In addition, simple animations using JavaScript have been added to enhance the page's appeal.",
@@ -29,16 +14,7 @@
       "id": 6,
       "title": "Dashboard One",
       "IdVideo": "ICi13AlYMVo",
-      "img": [
-        "./img/dashboard/1.jpg",
-        "./img/dashboard/2.jpg",
-        "./img/dashboard/3.jpg",
-        "./img/dashboard/4.jpg",
-        "./img/dashboard/5.jpg",
-        "./img/dashboard/6.jpg",
-        "./img/dashboard/7.jpg",
-        "./img/dashboard/8.jpg"
-      ],
+      "img": ["./img/dashboard/1.jpg"],
       "demo": "https://ahmedosama0js.github.io/My-Project/Dashbord-1/index.html",
       "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Dashbord-1",
       "description": "The dashboard is designed with 8 fully responsive pages on all screen sizes. This includes the Home Page, Settings Page, Profile Page, Projects Page, Courses Page, Friends Page, Files Page, and Pricing Plans page. The design was implemented using HTML and CSS to achieve distinct visual appeal.",
@@ -92,14 +68,7 @@
     {
       "id": 12,
       "title": "Medic cear",
-      "img": [
-        "./img/medic/1.jpg",
-        "./img/medic/2.jpg",
-        "./img/medic/3.jpg",
-        "./img/medic/4.jpg",
-        "./img/medic/5.jpg",
-        "./img/medic/6.jpg"
-      ],
+      "img": ["./img/medic/1.jpg"],
       "demo": "https://ahmedosama0js.github.io/My-Project/Medic%20Cear/index.html",
       "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Medic%20Cear",
       "description": "A webpage for a medical complex is designed to showcase information about doctors and clients, including client evaluations of the facility. The page also features a form for booking appointments. The design is responsive across all screens, achieved through the use of Bootstrap and subtle animations.",
@@ -109,7 +78,7 @@
     {
       "id": 15,
       "title": "quiz App",
-      "img": ["./img/quiz/1.jpg", "./img/quiz/2.jpg"],
+      "img": ["./img/quiz/1.jpg"],
       "demo": "https://ahmedosama0js.github.io/My-Project/Quiz%20App/index.html",
       "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Quiz%20App",
       "description": "application has been developed where questions are presented sequentially. Upon completing an answer, users progress to the next question. At the end of the test, there's an option to display the results, including a progress bar indicating completed and remaining questions. Additionally, the application provides a final assessment of the student's level based on the answered questions.",
@@ -131,7 +100,7 @@
       "id": 17,
       "title": "Snake Game ",
       "IdVideo": "VWNn44v_M8A",
-      "img": ["./img/snake/1.jpg", "./img/snake/2.jpg"],
+      "img": ["./img/snake/1.jpg"],
       "demo": "https://ahmedosama0js.github.io/My-Project/snake%20game/index.html",
       "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/snake%20game",
       "description": "The renowned snake game is enhanced with customizable speed levels and can be controlled on computer screens using the keyboard. Additionally, it is optimized for mobile screens, allowing users to control the snake's movement directly through the phone screen.",
@@ -142,12 +111,7 @@
       "id": 19,
       "title": "Quran Karem",
       "IdVideo": "zWzu4uaIPxo",
-      "img": [
-        "./img/quran-app/1.jpg",
-        "./img/quran-app/2.jpg",
-        "./img/quran-app/3.jpg",
-        "./img/quran-app/4.jpg"
-      ],
+      "img": ["./img/quran-app/1.jpg"],
       "demo": "https://ahmedosama0js.github.io/My-Project/quran%20karem/astmaa.html",
       "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/quran%20karem",
       "description": "The Holy Qur'an application is a robust and feature-rich platform crafted using HTML, CSS, and JS complemented by a 4-page structure. The initial page encompasses the entire Holy Qur'an, featuring the voices of 46 reciters. It includes an engaging audio player with controls for adjusting volume, advancing, or delaying the recitation. The second page provides the text of the Qur'an, allowing users to click on any verse for reading. On the third page, there is a live radio broadcast featuring recitations from various sheikhs. The fourth page offers a live stream of the Holy Qur'an channel.",
@@ -158,7 +122,7 @@
       "id": 20,
       "title": "Notes React App",
       "IdVideo": "ddWZdJPCajg",
-      "img": ["./img/note/1.jpg", "./img/note/2.jpg", "./img/note/3.jpg"],
+      "img": ["./img/note/1.jpg"],
       "demo": "https://ahmedosama0js.github.io/note/",
       "git": "https://github.com/AhmedOsama0js/note",
       "description": "A straightforward note-taking application that utilizes local storage for data retention. Users can save notes along with timestamps, and have the option to delete or modify them. The application was developed using the React framework.",
@@ -179,12 +143,7 @@
       "id": 23,
       "title": "react-dashboard-2",
       "IdVideo": "x3SVM3h9Fho",
-      "img": [
-        "./img/react-dashboard-2/1.jpg",
-        "./img/react-dashboard-2/2.jpg",
-        "./img/react-dashboard-2/3.jpg",
-        "./img/react-dashboard-2/4.jpg"
-      ],
+      "img": ["./img/react-dashboard-2/1.jpg"],
       "demo": "https://ahmedosama0js.github.io/React-Dashboard-2/",
       "git": "https://github.com/AhmedOsama0js/React-Dashboard-2",
       "description": "This project, developed using React, provides a comprehensive showcase of movie details. It boasts numerous features, displaying each film with an attractive layout and showcasing movie ratings. Additionally, it offers extra functionalities such as Arabic language translation and the ability to search for specific movies, enhancing the user experience and making the project both enjoyable and practical.",
@@ -195,7 +154,7 @@
       "id": 24,
       "title": "EG-Movies",
       "IdVideo": "xnzhX35hRI4",
-      "img": ["./img/eg-movies/1.jpg", "./img/eg-movies/2.jpg"],
+      "img": ["./img/eg-movies/1.jpg"],
       "demo": "https://ahmedosama0js.github.io/eg-moves/",
       "git": "https://github.com/AhmedOsama0js/eg-moves",
       "description": "This project, developed using React, provides a comprehensive showcase of movie details. It boasts numerous features, displaying each film with an attractive layout and showcasing movie ratings. Additionally, it offers extra functionalities such as Arabic language translation and the ability to search for specific movies, enhancing the user experience and making the project both enjoyable and practical. Moreover, it is responsive, ensuring compatibility with screens of all sizes.",
@@ -203,7 +162,7 @@
       "target": ["all", "react"]
     },
     {
-      "id": 24,
+      "id": 25,
       "title": "ebda3 academy ",
       "img": ["./img/ebda3acadmy/1.jpg"],
       "demo": "https://ebda3acadmy.com/",
@@ -212,7 +171,7 @@
       "target": ["all", "react"]
     },
     {
-      "id": 25,
+      "id": 26,
       "title": "engli-z",
       "img": ["./img/engli-z/1.jpg"],
       "demo": "https://www.engli-z.com/",

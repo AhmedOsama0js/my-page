@@ -1,0 +1,183 @@
+{
+  "data": [
+    {
+      "id": 4,
+      "title": "Template Four",
+      "img": ["./img/template-4/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/My-Project/Template-4/index.html",
+      "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Template-4",
+      "description": "باستخدام HTML وCSS، قمت بتصميم صفحة ويب تحتوي على 15 قسمًا. تم تحسين توجيه الصفحة لتكون متجاوبة مع جميع أحجام الشاشات. بالإضافة إلى ذلك، تمت إضافة بعض الحركات البسيطة باستخدام JavaScript لتعزيز جاذبية الصفحة.",
+      "p": "صفحة ويب بسيطة باستخدام HTML وCSS مع الحركات",
+      "target": ["all", "html&css"]
+    },
+    {
+      "id": 6,
+      "title": "Dashboard One",
+      "IdVideo": "ICi13AlYMVo",
+      "img": ["./img/dashboard/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/My-Project/Dashbord-1/index.html",
+      "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Dashbord-1",
+      "description": "تم تصميم لوحة التحكم مع 8 صفحات متجاوبة بالكامل مع جميع أحجام الشاشات. يشمل ذلك صفحة الصفحة الرئيسية، صفحة الإعدادات، صفحة الملف الشخصي، صفحة المشاريع، صفحة الدورات، صفحة الأصدقاء، صفحة الملفات، وصفحة خطط التسعير. تم تنفيذ التصميم باستخدام HTML وCSS لتحقيق جاذبية بصرية متميزة.",
+      "p": "لوحة تحكم مكونة من 4 صفحات باستخدام HTML وCSS",
+      "target": ["all", "html&css"]
+    },
+    {
+      "id": 7,
+      "title": "filter app",
+      "IdVideo": "fOLKbtaoJ_U",
+      "img": ["./img/filter-app/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/My-Project/filter%20app/filter.html",
+      "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/filter%20app",
+      "description": "تطبيق لتعديل الصور باستخدام HTML وCSS وJavaScript. يتم تحميل الصورة، ثم يتم تعديلها، وبعد اكتمال عملية التحرير يتم حفظها على الجهاز.",
+      "p": "تطبيق لإضافة فلتر على الصور باستخدام HTML وCSS وJS",
+      "target": ["all", "js"]
+    },
+    {
+      "id": 8,
+      "title": "Memory game",
+      "IdVideo": "qcQbav2rzb0",
+      "img": ["./img/card-game/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/My-Project/Memory%20Card/memory-game.html",
+      "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Memory%20Card",
+      "description": "اللعبة الكلاسيكية المعروفة باسم 'المطابقة' تتضمن قلب البطاقات بشكل متسلسل وعدّها مقلوبة. الهدف هو التعرف على البطاقات المتطابقة عندما يتم الكشف عنها.",
+      "p": "لعبة الذاكرة باستخدام HTML وCSS وJS",
+      "target": ["all", "js"]
+    },
+    {
+      "id": 9,
+      "title": "Todo App",
+      "IdVideo": "ZazOopf5RKk",
+      "img": ["./img/todo-app/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/My-Project/ToDo/ToDo.html",
+      "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/ToDo",
+      "description": "تم تصميم تطبيق الأنيميشن لإضافة المهام اليومية التي يجب إنجازها طوال اليوم، مع إمكانية تتبع تقدم المهام من خلال وضع علامة أو حذفها. يعتمد التطبيق على Local Storage لحفظ البيانات ويتميز بتصميم استجابة لعدة شاشات، مما يعزز تجربة المستخدم مع إضافة تأثيرات أنيميشن.",
+      "p": "تطبيق لحفظ المهام باستخدام Local Storage باستخدام HTML وCSS وJS",
+      "target": ["all", "js"]
+    },
+    {
+      "id": 11,
+      "title": "puzzle game",
+      "IdVideo": "DRZraQR1yKM",
+      "img": ["./img/puzzle/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/My-Project/puzzle%20game/puzzle-game.html",
+      "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/puzzle%20game",
+      "description": "لعبة الألغاز: يتم اختيار عشوائي لتشكيل أساس لعبة الألغاز، حيث يتم تقسيم صورة إلى قطع صغيرة ليقوم المستخدمون بترتيبها على الجانب المعاكس من الصفحة. تم تطوير هذه اللعبة التفاعلية باستخدام JavaScript وعنصر canvas، وتعمل فقط على أجهزة الكمبيوتر.",
+      "p": "لعبة ألغاز على شاشات الكمبيوتر فقط باستخدام HTML وCSS وJS",
+      "target": ["all", "js"]
+    },
+    {
+      "id": 12,
+      "title": "Medic cear",
+      "img": ["./img/medic/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/My-Project/Medic%20Cear/index.html",
+      "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Medic%20Cear",
+      "description": "تم تصميم صفحة ويب لمجمع طبي لعرض معلومات حول الأطباء والعملاء، بما في ذلك تقييمات العملاء للمرفق. تتضمن الصفحة أيضًا نموذجًا لحجز المواعيد. التصميم متجاوب مع جميع الشاشات، وقد تم تحقيق ذلك من خلال استخدام Bootstrap والرسوم المتحركة البسيطة.",
+      "p": "صفحة ويب لمجمع طبي لحجز المواعيد مع الأطباء باستخدام HTML وCSS وJS",
+      "target": ["all", "js"]
+    },
+    {
+      "id": 15,
+      "title": "quiz App",
+      "img": ["./img/quiz/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/My-Project/Quiz%20App/index.html",
+      "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/Quiz%20App",
+      "description": "تم تطوير تطبيق يتم عرض الأسئلة فيه بشكل متسلسل. عند إتمام الإجابة، ينتقل المستخدمون إلى السؤال التالي. في نهاية الاختبار، هناك خيار لعرض النتائج، بما في ذلك شريط التقدم الذي يوضح الأسئلة المنتهية والمتبقية. بالإضافة إلى ذلك، يوفر التطبيق تقييمًا نهائيًا لمستوى الطالب بناءً على الأسئلة التي تم الإجابة عليها.",
+      "p": "برنامج أسئلة باستخدام HTML وCSS وJS",
+      "target": ["all", "js"]
+    },
+    {
+      "id": 16,
+      "title": "natega ",
+      "IdVideo": "JiL7F32zcZo",
+      "img": ["./img/natega/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/My-Project/natega/index.html",
+      "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/natega",
+      "description": "تطبيق مصمم لعرض نتائج الامتحانات النهائية عند الانتهاء. يعرض البرنامج تقييم الطالب في كل مادة، مصحوبًا برسم بياني يوضح مستوى أداء الطالب في الامتحان.",
+      "p": "تطبيق لعرض نتائج الطلاب باستخدام HTML وCSS وJS",
+      "target": ["all", "js"]
+    },
+    {
+      "id": 17,
+      "title": "Snake Game ",
+      "IdVideo": "VWNn44v_M8A",
+      "img": ["./img/snake/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/My-Project/snake%20game/index.html",
+      "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/snake%20game",
+      "description": "تم تحسين لعبة الأفعى الشهيرة مع مستويات سرعة قابلة للتخصيص ويمكن التحكم فيها على شاشات الكمبيوتر باستخدام لوحة المفاتيح. بالإضافة إلى ذلك، تم تحسينها لشاشات الهواتف المحمولة، مما يتيح للمستخدمين التحكم في حركة الأفعى مباشرة عبر شاشة الهاتف.",
+      "p": "لعبة الأفعى متوافقة مع جميع الشاشات باستخدام HTML وCSS وJS",
+      "target": ["all", "js"]
+    },
+    {
+      "id": 19,
+      "title": "Quran Karem",
+      "IdVideo": "zWzu4uaIPxo",
+      "img": ["./img/quran-app/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/My-Project/quran%20karem/astmaa.html",
+      "git": "https://github.com/AhmedOsama0js/My-Project/tree/main/quran%20karem",
+      "description": "تطبيق القرآن الكريم هو منصة قوية وغنية بالميزات تم تصميمها باستخدام HTML وCSS وJS مع هيكل مكون من 4 صفحات. تتضمن الصفحة الأولى القرآن الكريم بالكامل، مع أصوات 46 مقرئًا. تحتوي الصفحة على مشغل صوتي جذاب مع أدوات للتحكم في الصوت، والتقديم أو التأخير في التلاوة. توفر الصفحة الثانية نص القرآن الكريم، مع إمكانية النقر على أي آية لقراءتها. في الصفحة الثالثة، يوجد بث إذاعي مباشر لتلاوات من شيوخ مختلفين. أما الصفحة الرابعة، فتقدم بثًا مباشرًا لقناة القرآن الكريم.",
+      "p": "لوحة تحكم مكونة من 4 صفحات باستخدام HTML وCSS وJS",
+      "target": ["all", "js"]
+    },
+    {
+      "id": 20,
+      "title": "Notes React App",
+      "IdVideo": "ddWZdJPCajg",
+      "img": ["./img/note/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/note/",
+      "git": "https://github.com/AhmedOsama0js/note",
+      "description": "تطبيق بسيط لتدوين الملاحظات يستخدم التخزين المحلي للاحتفاظ بالبيانات. يمكن للمستخدمين حفظ الملاحظات مع الطوابع الزمنية، ولديهم خيار حذفها أو تعديلها. تم تطوير التطبيق باستخدام إطار عمل React.",
+      "p": "تطبيق لتدوين الملاحظات باستخدام React، التخزين المحلي، وBootstrap",
+      "target": ["all", "react"]
+    },
+    {
+      "id": 21,
+      "title": "millionaire Game",
+      "img": ["./img/millionaire/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/millionaireGame/",
+      "git": "https://github.com/AhmedOsama0js/millionaireGame",
+      "description": "تم تصميم لعبة 'من سيربح المليون' باستخدام React. تدور اللعبة حول الإجابة على أسئلة متعلقة بالصحة للتقدم عبر المستويات، وهي مصممة لتكون متوافقة مع جميع الشاشات.",
+      "p": "لعبة من سيربح المليون باستخدام React وBootstrap",
+      "target": ["all", "react"]
+    },
+    {
+      "id": 23,
+      "title": "react-dashboard-2",
+      "IdVideo": "x3SVM3h9Fho",
+      "img": ["./img/react-dashboard-2/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/React-Dashboard-2/",
+      "git": "https://github.com/AhmedOsama0js/React-Dashboard-2",
+      "description": "تم تطوير هذا المشروع باستخدام React، ويقدم عرضًا شاملاً لتفاصيل الأفلام. يتميز بالعديد من الميزات، حيث يعرض كل فيلم بتصميم جذاب ويعرض تقييمات الأفلام. بالإضافة إلى ذلك، يوفر وظائف إضافية مثل الترجمة إلى اللغة العربية وإمكانية البحث عن أفلام معينة، مما يعزز تجربة المستخدم ويجعل المشروع ممتعًا وعمليًا.",
+      "p": "لوحة تحكم من 4 صفحات باستخدام React وBootstrap ومكتبة echart.",
+      "target": ["all", "react"]
+    },
+    {
+      "id": 24,
+      "title": "EG-Movies",
+      "description": "هذا المشروع، الذي تم تطويره باستخدام React، يقدم عرضًا شاملاً لتفاصيل الأفلام. يتميز بالعديد من الميزات، حيث يعرض كل فيلم بتصميم جذاب ويعرض تقييمات الأفلام. بالإضافة إلى ذلك، يوفر وظائف إضافية مثل الترجمة إلى اللغة العربية وإمكانية البحث عن أفلام معينة، مما يعزز تجربة المستخدم ويجعل المشروع ممتعًا وعمليًا. علاوة على ذلك، فهو متجاوب، مما يضمن التوافق مع الشاشات بجميع الأحجام.",
+      "p": "يعرض مشروع React تفاصيل الأفلام بتصميم جذاب ومتجاوب مع جميع الشاشات. يشمل تقييمات الأفلام، والترجمة إلى اللغة العربية، ووظائف البحث، مما يجعله عمليًا وممتعًا.",
+      "IdVideo": "xnzhX35hRI4",
+      "img": ["./img/eg-movies/1.jpg"],
+      "demo": "https://ahmedosama0js.github.io/eg-moves/",
+      "git": "https://github.com/AhmedOsama0js/eg-moves",
+      "target": ["all", "react"]
+    },
+    {
+      "id": 25,
+      "title": "ابداع التعليمية",
+      "description": "أكاديمية إبداع هي منصة تعليمية عبر الإنترنت تقدم مجموعة واسعة من الدورات في مختلف المجالات. يتميز الموقع بتصميم نظيف وبديهي، مما يوفر للمستخدمين وصولًا سهلًا إلى الدورات المختلفة. تشمل كل دورة معلومات تفصيلية، وأسعار، وتفاصيل المدربين، بالإضافة إلى عملية تسجيل سهلة. كما تدعم المنصة الدروس الفيديو التفاعلية، والاختبارات التفاعلية، وتجربة مستخدم سلسة عبر جميع الأجهزة، مما يضمن أن يكون التعلم ممتعًا وفعالًا.",
+      "p": "أكاديمية إبداع هي منصة عبر الإنترنت تقدم دورات تعليمية متنوعة بواجهة مستخدم سهلة، مع معلومات تفصيلية عن الدورات، ودروس فيديو، واختبارات، ومحسنة لجميع الأجهزة.",
+      "img": ["./img/ebda3acadmy/1.jpg"],
+      "demo": "https://ebda3acadmy.com/",
+      "target": ["all", "react"]
+    },
+    {
+      "id": 26,
+      "title": "engli-z",
+      "description": "engli-z هو منصة إلكترونية مصممة لمساعدة المستخدمين على تحسين مهاراتهم في اللغة الإنجليزية. يوفر الموقع مجموعة واسعة من الدورات التفاعلية، تشمل دروس في القواعد النحوية، وبناء المفردات، وتمارين النطق. بواجهة سهلة الاستخدام وأدوات تعلم متنوعة، يتيح إنجلي-زد للمستخدمين تتبع تقدمهم والمشاركة في تدريبات عملية. المنصة متجاوبة بالكامل، مما يضمن تجربة سلسة على جميع الأجهزة، مما يجعلها حلاً مثاليًا للمتعلمين من جميع المستويات.",
+      "p": "إنجلي-زد يقدم دورات تفاعلية عبر الإنترنت لتعلم اللغة الإنجليزية، تشمل القواعد، والمفردات، والنطق. يتتبع التقدم، ويوفر تدريبات عملية، ومتجاوب تمامًا مع جميع الأجهزة.",
+      "img": ["./img/engli-z/1.jpg"],
+      "demo": "https://www.engli-z.com/",
+      "target": ["all", "react"]
+    }
+  ]
+}

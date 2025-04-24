@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import CardProject from "../../components/ProjectCmp/CardProject/CardProject";
 import "./Projects.css";
+import { useTranslation } from "../../contexts/LanguageContext";
 
 const Projects = () => {
+  const t = useTranslation();
   const [filter, setFilter] = useState("all");
   const handleButtonClick = (selectedFilter) => {
     setFilter(selectedFilter);
@@ -11,7 +13,7 @@ const Projects = () => {
   return (
     <>
       <div className="projects-container">
-        <h2>My Projects</h2>
+        <h2 className="dir">{t("MyProject")}</h2>
         <div className="project-info">
           <div className="filter">
             <button

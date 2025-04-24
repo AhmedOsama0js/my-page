@@ -6,6 +6,12 @@
   justify-content: center;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  padding: 15px;
+}
+@media (max-width: 769px) {
+  .container-pop {
+    padding: 5px;
+  }
 }
 .container-pop .body-pop {
   background-color: var(--seconder);

@@ -5,8 +5,10 @@ import { FiLink } from "react-icons/fi";
 import { MdReadMore } from "react-icons/md";
 import { MainModal } from "react-modals-kit";
 import Pop from "../../../model/Pop";
+import { useTranslation } from "../../../contexts/LanguageContext";
 
 const CardItem = ({ project }) => {
+  const t = useTranslation();
   const [openModel, setOpenModel] = useState();
   const description =
     project.p && project.p.split(" ").length > 10
@@ -49,7 +51,7 @@ const CardItem = ({ project }) => {
             </a>
           </div>
           <div className="more" onClick={handlerClick}>
-            more
+            {t("more")}
             <MdReadMore style={{ fontSize: "25px" }} />
           </div>
         </div>
