@@ -13,7 +13,7 @@ const LangBtn = () => {
   };
 
   return (
-    <button className="btn" onClick={toggleLanguage}>
+    <button className="btn-my" onClick={toggleLanguage}>
       {lang === "ar" ? "en" : "ع"}
     </button>
   );

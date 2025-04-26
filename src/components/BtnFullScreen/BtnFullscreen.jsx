@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { BsArrowsFullscreen, BsFullscreenExit } from "react-icons/bs";
 const BtnFullscreen = () => {
@@ -42,7 +41,11 @@ const BtnFullscreen = () => {
 
   return (
     <div>
-      <button className="btn" id="fullscreenButton" onClick={toggleFullscreen}>
+      <button
+        className="btn-my"
+        id="fullscreenButton"
+        onClick={toggleFullscreen}
+      >
         {isFullscreen ? <BsFullscreenExit /> : <BsArrowsFullscreen />}
       </button>
     </div>

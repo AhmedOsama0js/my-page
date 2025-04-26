@@ -8,11 +8,14 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import About from "./pages/About/About";
 import Sidebar from "./components/sidebar/Sidebar";
+import Blog from "./pages/Blog/Blog";
+import ClickEffect from "./components/ClickEffects/ClickEffects";
 
 function App() {
   return (
     <HashRouter>
       <div className="App">
+        <ClickEffect />
         <div className="main-container">
           <Header />
           <Sidebar />
@@ -21,6 +24,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
           <Footer />
         </div>

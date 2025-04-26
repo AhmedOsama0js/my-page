@@ -99,7 +99,7 @@ function Contact() {
       </h2>
       <div className="contact-body dir">
         <form id="contact-form" onSubmit={handleSubmit}>
-          <div className="row">
+          <div className="row-input">
             <div className="label-container">
               <label htmlFor="name">{t("enterName")}</label>
               {errors.name && <span className="error-msg">{errors.name}</span>}
@@ -120,7 +120,7 @@ function Contact() {
               }
             />
           </div>
-          <div className="row">
+          <div className="row-input">
             <div className="label-container">
               <label htmlFor="email">{t("emailAddress")}</label>
               {errors.email && (
@@ -144,7 +144,7 @@ function Contact() {
             />
           </div>
 
-          <div className="row">
+          <div className="row-input">
             <div className="label-container">
               <label htmlFor="phone">{t("phonNumber")}</label>
               {errors.phone && (
@@ -167,7 +167,7 @@ function Contact() {
               }
             />
           </div>
-          <div className="row">
+          <div className="row-input">
             <div className="label-container">
               <label htmlFor="message">{t("enterMessage")}</label>
               {errors.message && (

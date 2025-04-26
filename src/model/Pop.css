@@ -12,7 +12,12 @@
   .container-pop {
     padding: 5px;
   }
+
+  .pop-slider img {
+    width: 90%;
+  }
 }
+
 .container-pop .body-pop {
   background-color: var(--seconder);
   border-radius: 10px;
@@ -84,4 +89,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.pop-slider img {
+  width: 70%;
+}
+
+@media (max-width: 769px) {
+  .pop-slider img {
+    width: 90%;
+  }
 }

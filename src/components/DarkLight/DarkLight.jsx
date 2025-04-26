@@ -21,7 +21,7 @@ const ThemeToggler = () => {
   return (
     <div>
       <button
-        className="btn"
+        className="btn-my"
         onClick={() => {
           setTheme((prevTheme) =>
             prevTheme === THEMES.DARK ? THEMES.LIGHT : THEMES.DARK

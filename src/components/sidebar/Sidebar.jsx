@@ -1,7 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 import { AiOutlineHome, AiOutlineProject } from "react-icons/ai";
-import { BiMessage } from "react-icons/bi";
+import { BiMessage, BiSolidVideos } from "react-icons/bi";
 import { IoPerson } from "react-icons/io5";
+// import { RiBloggerFill } from "react-icons/ri";
 import "./Sidebar.css";
 
 const Sidebar = () => {
@@ -36,6 +37,15 @@ const Sidebar = () => {
             }
           >
             <AiOutlineProject />
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/blog"
+            title="contact"
+            className={location.pathname === "/blog" ? "active " : "linkPage"}
+          >
+            <BiSolidVideos />
           </Link>
         </li>
         <li>
