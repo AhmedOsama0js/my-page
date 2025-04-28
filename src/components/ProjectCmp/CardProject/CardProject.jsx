@@ -5,7 +5,7 @@ import CardItem from "../CardItem/CardItem";
 import { useLanguage } from "../../../contexts/LanguageContext";
 
 const CardProject = ({ filter }) => {
-  const { lang } = useLanguage(); // علشان نعرف اللغة الحالية
+  const { lang } = useLanguage();
   const reversedData = useMemo(() => data.data.slice().reverse(), []);
   const [projects, setProjects] = useState([]);
   const [allData, setAllData] = useState([]);

@@ -20,7 +20,7 @@ const CardItem = ({ project }) => {
   };
 
   return (
-    <div className="card" key={project.id}>
+    <div className="card-item" key={project.id}>
       <div className="box-img">
         <img
           style={{ width: "99%" }}
